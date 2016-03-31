@@ -1,0 +1,2 @@
+sudo python2.7 esptool.py --port=/dev/ttyUSB0 write_flash 0x0 ~/Downloads/nodemcu_integer_0.9.5_20150318.bin  -fs 32m -fm dio -ff 40m
+
